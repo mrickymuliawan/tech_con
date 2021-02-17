@@ -1,0 +1,56 @@
+body {
+  margin: 0em;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.jumbotron {
+  height: 500px;
+  background-image: url(../image/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.title,
+.lead {
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+#form-div {
+  padding: 2em;
+  background-color: #323232;
+  width: 100%;
+  height: fit-content;
+}
+
+.form-control {
+  border: 1px solid #3cddec;
+  border-radius: 10px;
+}
+
+#jetzt-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.anmeldung-titel {
+  width: 80%;
+  height: 80px;
+  background-color: #3cddec;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+label {
+  color: white;
+}
