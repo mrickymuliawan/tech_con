@@ -1,5 +1,5 @@
-<?php include('../database/connection.php'); ?>
-<?php include('../components/header.php') ?>
+<?php include('../database/connection.php');
+include('../components/header.php') ?>
 
 <table>
     <tr>
@@ -26,7 +26,6 @@
                 <td>$row[nachname]</td>
                 <td>$row[email]</td>
                 <td>$row[firma]</td>
-                <td>$row[datenschutz]</td>
                 </tr>";
         }
         // in case query failed, then throw the error

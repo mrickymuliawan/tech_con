@@ -15,7 +15,8 @@ body {
 }
 
 .title,
-.lead {
+.lead,
+h5 {
   font-family: "Raleway", sans-serif;
   color: white;
 }

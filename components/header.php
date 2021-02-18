@@ -23,7 +23,6 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-item nav-link active" href="#">Program <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="#">Sponsorship</a>
                         <a class="nav-item nav-link" href="#">Register</a>
                     </div>
                 </div>
@@ -35,7 +34,7 @@
                     <h1 class="title display-4">WEBCONIA</h1>
                     <h1 class="title display-4">TECHNOLOGY</h1>
                     <h1 class="title display-4">CONFERENCE</h1>
-                    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                    <p class="lead">Wilkommen auf unserer offizieller Veranstaltungswebsite</p>
                 </div>
             </div>
         </row>
