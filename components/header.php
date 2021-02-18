@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid px-0">
         <row>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#">Webconia</a>
@@ -35,8 +35,6 @@
                     <h1 class="title display-4">WEBCONIA</h1>
                     <h1 class="title display-4">TECHNOLOGY</h1>
                     <h1 class="title display-4">CONFERENCE</h1>
-                    <h1 class="title display-4">JOIN NOW</h1>
-
                     <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
                 </div>
             </div>

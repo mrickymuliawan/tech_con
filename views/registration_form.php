@@ -24,7 +24,6 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-item nav-link active" href="#">Program <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="#">Sponsorship</a>
                         <a class="nav-item nav-link" href="#">Register</a>
                     </div>
                 </div>
@@ -36,9 +35,7 @@
                     <h1 class="title display-4">WEBCONIA</h1>
                     <h1 class="title display-4">TECHNOLOGY</h1>
                     <h1 class="title display-4">CONFERENCE</h1>
-                    <h1 class="title display-4">JOIN NOW</h1>
-
-                    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                    <p class="lead">Hamburg, 20.06.2021 - 23.06.2021</p>
                 </div>
             </div>
         </row>
@@ -75,17 +72,22 @@
             <br />
             <div class="form-row">
                 <div class="form-group col">
-                    <label for="inputAddress">Firma</label>
+                    <label for="inputAddress">Firma&#40;optional&#41;</label>
                     <input type="text" class="form-control" id="inputFirma" name='firma' placeholder="Firma">
                 </div>
                 <br />
                 <div class="form-group col">
-                    <label for="inputState">Workshops</label>
+                    <label for="inputState">Workshops Vormittag from &#40;10:00 - 11:30&#41;</label>
                     <select id="inputState" class="form-control">
-                        <option selected>Choose...</option>
-                        <option>Tech 1</option>
-                        <option>Tech 2</option>
-                        <option>Tech 3</option>
+                        <option selected>Auswahl...</option>
+                        <option>Room 1</option>
+                    </select>
+                </div>
+                <div class="form-group col">
+                    <label for="inputState">Workshops Nachmittag from &#40;14:00 - 15:30&#41;</label>
+                    <select id="inputState" class="form-control">
+                        <option selected>Auswahl...</option>
+                        <option>Room 2</option>
                     </select>
                 </div>
 
@@ -94,7 +96,7 @@
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" id="gridCheck" name="datenschutz">
                     <label class="form-check-label" for="gridCheck">
-                        Ich bin einverstanden mit der <a href="https://www.webconia.de/datenschutzerklaerung/">Datenschuterklärung</a>
+                        Ich stimme die Übermittlung und Verarbeitung meine Anmeldedaten zu. Mehr über die <a href="https://www.webconia.de/datenschutzerklaerung/">Datenschuterklärung</a>
                     </label>
                 </div>
             </div>
@@ -103,10 +105,4 @@
 
     </div>
 
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
-
-</html>
+    <?php include('../components/footer.php'); ?>
