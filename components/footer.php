@@ -1,9 +1,17 @@
 <div class="card">
-    <img class="card-img-bottom" src="../image/footer.png" alt="Card image cap">
-    <div class="card-img-overlay">
-        <h5 class="card-title text-light">CONTACT US</h5>
-        <p class="card-text text-light">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text">Last updated 3 mins ago</p>
+    <div class="footer-card d-flex justify-content-center flex-column text-center">
+        <h5 class="card-title text-light">KONTAKT</h5>
+
+        <p class="contact-text card-text text-light"><a href="#">
+                Schreiben Sie uns!</a></p>
+
+
+        <p class="contact-text card-text text-light"><a href="#">
+                Sitemap</a></p>
+
+
+        <p class="contact-text card-text text-light"><a href="#">Impresum</a></p>
+
     </div>
 </div>
 

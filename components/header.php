@@ -14,28 +14,29 @@
 
 <body>
     <div class="container-fluid px-0">
-        <row>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Webconia</a>
+        <row class="navRow">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <a class="navbar-brand" href="../views/registration_form.php">Webconia</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="#">Program <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="#">Register</a>
+                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ">
+                        <a class="nav-item nav-link active " href="#">Program <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="../views/registration_form.php">Register</a>
                     </div>
                 </div>
             </nav>
         </row>
         <row>
-            <div class="jumbotron jumbotron-fluid">
-                <div class="container">
-                    <h1 class="title display-4">WEBCONIA</h1>
-                    <h1 class="title display-4">TECHNOLOGY</h1>
-                    <h1 class="title display-4">CONFERENCE</h1>
+            <section class="header-section">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="title-container">
+                        <h1 class="title display-4">WEBCONIA TECHNOLOGY CONFERENCE</h1>
+                        <hr class="mb-5">
+                    </div>
                     <p class="lead">Wilkommen auf unserer offizieller Veranstaltungswebsite</p>
                 </div>
-            </div>
+            </section>
         </row>
     </div>

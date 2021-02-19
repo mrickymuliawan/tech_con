@@ -13,7 +13,7 @@ include('../components/header.php') ?>
     //the query to get all participants
     $result = mysqli_query(
         $link,
-        "select * from participants"
+        "select * from participants where id=2"
     );
 
     //check if query success

@@ -27,17 +27,12 @@
              </div>
              <br />
              <div class="form-group col-md-6 col-xs-12">
-                 <label for="inputPassword4">Password*</label>
-                 <input type="password" class="form-control" id="inputPassword4" placeholder="Password" name='password' required>
+                 <label for="inputFirma">Firma &#40;optional&#41;</label>
+                 <input type="text" class="form-control" id="inputFirma" name='firma' placeholder="Firma">
              </div>
          </div>
          <br />
          <div class="form-row">
-             <div class="form-group col-md-6 col-xs-12">
-                 <label for="inputFirma">Firma &#40;optional&#41;</label>
-                 <input type="text" class="form-control" id="inputFirma" name='firma' placeholder="Firma">
-             </div>
-             <br />
              <div class="form-group col-md-6 col-xs-12">
                  <label for="inputState">Workshop &#40;10:00 - 11:30&#41;</label>
                  <select id="inputState" class="form-control" name="room_id">

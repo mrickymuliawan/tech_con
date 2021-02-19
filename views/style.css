@@ -2,8 +2,16 @@ body {
   margin: 0em;
 }
 
-.container-fluid {
-  width: 100%;
+/* Navbar section */
+
+.navbar {
+  padding: 1em 2em 1em 2em;
+}
+
+/* Header / Jumbotron section */
+
+.title-container {
+  margin: 3em 2em 2em 3em;
 }
 
 .jumbotron {
@@ -14,11 +22,27 @@ body {
   background-repeat: no-repeat;
 }
 
+.title-container {
+  width: 60%;
+}
+
+.jumbotron p {
+  margin-left: 3.5rem;
+}
+
 .title,
 .lead,
 h5 {
   font-family: "Raleway", sans-serif;
   color: white;
+}
+
+.mb-5 {
+  width: 60%;
+  height: 3px;
+  background-color: white;
+  margin-bottom: -1rem !important;
+  margin-left: 0.5rem;
 }
 
 #form-div {
@@ -56,20 +80,47 @@ label {
   color: white;
 }
 
-.afterRegister-div {
+.confirm-container {
+  display: flex;
+  justify-content: center;
+}
+
+.confirmation-div {
   width: 80%;
-  height: fit-content;
+  height: 300px;
+  margin: 3em 1em 3em 1em;
   background-color: #323232;
   color: white;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  border-radius: 20px;
 }
 
 .card {
+  background-image: url("../image/footer.png");
+  background-position: center;
+  background-size: cover;
   margin-top: 3em;
+  height: 300px;
+  border-radius: 0px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.card-img-bottom {
-  height: 400px;
+
+.footer-card a:hover {
+  border-bottom: 3px solid white;
+  width: fit-content;
+  text-decoration: none;
+}
+
+.footer-card a {
+  color: white;
+}
+
+.footer-card a {
+  margin-bottom: 1em;
 }

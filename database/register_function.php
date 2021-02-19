@@ -1,15 +1,20 @@
 <?php include('connection.php');
 
-//hash the password
-$password = md5($_POST['password']);
+//define the input value in variables
+$first = mysqli_real_escape_string($link, $_POST['vorname']);
+$last = mysqli_real_escape_string($link, $_POST['nachname']);
+$email = mysqli_real_escape_string($link, $_POST['email']);
+$company = mysqli_real_escape_string($link, $_POST['firma']);
+$room = mysqli_real_escape_string($link, $_POST['room_id']);
 
-//create one participant using mysqli
-$dataQuery = mysqli_query($link, "insert into participants (vorname, nachname, email, password, firma, room_id) values ('$_POST[vorname]', '$_POST[nachname]', '$_POST[email]', '$password', '$_POST[firma]', '$_POST[room_id]' ");
+//create one participant
+$sql = "INSERT INTO participants (vorname, nachname, email, firma, room_id) VALUES ('$first', '$last', '$email', '$company', '$room');";
+$result = mysqli_query($link, $sql);
 
 //check if query is sent correctly or not 
-if ($dataQuery) {
+if ($result) {
     //if yes, send vorname with header to logged_in page
-    Header("Location: ../views/confirmation.php?success=registration is successful");
+    Header("Location: ../views/confirmation.php?success=Registrierung war erfolgreich!");
 } else {
     echo "error found: " . mysqli_error($link);
 }
