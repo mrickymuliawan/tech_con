@@ -1,4 +1,5 @@
 body {
+  width: 100%;
   margin: 0em;
 }
 
@@ -6,12 +7,14 @@ body {
 
 .navbar {
   padding: 1em 2em 1em 2em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: black !important;
 }
 
 /* Header / Jumbotron section */
-
-.title-container {
-  margin: 3em 2em 2em 3em;
+.header-section {
+  margin-top: 4em;
 }
 
 .jumbotron {
@@ -23,7 +26,10 @@ body {
 }
 
 .title-container {
-  width: 60%;
+  width: 40%;
+  margin: 3em 2em 2em 3em;
+  display: flex;
+  flex-direction: column;
 }
 
 .jumbotron p {
@@ -38,18 +44,71 @@ h5 {
 }
 
 .mb-5 {
-  width: 60%;
+  width: 65%;
   height: 3px;
   background-color: white;
   margin-bottom: -1rem !important;
-  margin-left: 0.5rem;
+  margin-left: 0em;
 }
 
-#form-div {
+/* About section */
+.aboutTextDiv h2:after {
+  content: "";
+  display: block;
+  width: 50%;
+  border-bottom: 0.3em solid #3cddec;
+  margin: 0.5em auto 0.5em 0em;
+}
+
+/* Content section */
+.inhaltContainer {
+  min-height: 500px;
+  max-height: fit-content;
+  background-color: #3cddec;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0em !important;
+}
+
+.inhaltCol {
+  width: 300px;
+  height: 300px;
+  padding: 0em 1em 0em 1em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.inhaltCol h5 {
+  margin: 1em auto 1em auto;
+}
+
+.imageDiv {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img1,
+.img2,
+.img3 {
+  width: 120px;
+}
+
+/* Registration form section */
+
+.form-div {
   padding: 2em;
   background-color: #323232;
   width: 100%;
   height: fit-content;
+  margin-bottom: 5em;
 }
 
 .form-control {
@@ -57,7 +116,7 @@ h5 {
   border-radius: 10px;
 }
 
-#jetzt-div {
+.jetzt-div {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -80,15 +139,20 @@ label {
   color: white;
 }
 
+/* Confirmation section */
+
 .confirm-container {
   display: flex;
   justify-content: center;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .confirmation-div {
   width: 80%;
   height: 300px;
   margin: 3em 1em 3em 1em;
+  padding: 2em;
   background-color: #323232;
   color: white;
   display: flex;
@@ -99,11 +163,19 @@ label {
   border-radius: 20px;
 }
 
+/* Table Admin section */
+
+.tableContainer {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+/* Footer section */
 .card {
   background-image: url("../image/footer.png");
   background-position: center;
   background-size: cover;
-  margin-top: 3em;
+  margin-top: 0em;
   height: 300px;
   border-radius: 0px !important;
   display: flex;
@@ -123,4 +195,34 @@ label {
 
 .footer-card a {
   margin-bottom: 1em;
+}
+
+/* Media Query section */
+@media (max-width: 576px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .lead {
+    font-size: 1rem;
+    margin-left: 1em;
+  }
+  .title-container,
+  .jumbotron p,
+  .aboutTextDiv,
+  .aboutImgDiv {
+    margin-top: 3em;
+    margin-left: 1em;
+  }
+  .inhaltRow {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mb-5 {
+    width: 100%;
+  }
 }

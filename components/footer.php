@@ -1,15 +1,10 @@
 <div class="card">
     <div class="footer-card d-flex justify-content-center flex-column text-center">
         <h5 class="card-title text-light">KONTAKT</h5>
-
         <p class="contact-text card-text text-light"><a href="#">
                 Schreiben Sie uns!</a></p>
-
-
         <p class="contact-text card-text text-light"><a href="#">
                 Sitemap</a></p>
-
-
         <p class="contact-text card-text text-light"><a href="#">Impresum</a></p>
 
     </div>

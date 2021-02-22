@@ -9,34 +9,36 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
-    <title>Register Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <title>Tech Conference</title>
 </head>
 
 <body>
     <div class="container-fluid px-0">
         <row class="navRow">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-                <a class="navbar-brand" href="../views/registration_form.php">Webconia</a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+                <a class="navbar-brand" href="../views/program_page.php">Webconia</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
-                    <div class="navbar-nav ">
-                        <a class="nav-item nav-link active " href="#">Program <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="../views/registration_form.php">Register</a>
-                    </div>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <ul class="nav navbar-nav ml-auto">
+                        <a class="nav-item nav-link active" href="../views/program_page.php">Program <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="../views/registration_form.php">Registrieren</a>
+                    </ul>
                 </div>
             </nav>
         </row>
-        <row>
-            <section class="header-section">
-                <div class="jumbotron jumbotron-fluid">
-                    <div class="title-container">
-                        <h1 class="title display-4">WEBCONIA TECHNOLOGY CONFERENCE</h1>
-                        <hr class="mb-5">
-                    </div>
-                    <p class="lead">Wilkommen auf unserer offizieller Veranstaltungswebsite</p>
+    </div>
+    <div class="container-fluid px-0">
+        <section class="header-section">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="title-container">
+                    <h1 class="title display-4">WEBCONIA TECHNOLOGY CONFERENCE</h1>
+                    <hr class="mb-5">
                 </div>
-            </section>
+                <p class="lead">Wilkommen auf unserer offizieller Veranstaltungswebsite</p>
+            </div>
+        </section>
         </row>
     </div>

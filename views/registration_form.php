@@ -2,12 +2,12 @@
  <?php include('../components/header.php'); ?>
 
 
- <div id="jetzt-div" class="container-fluid px-0">
+ <div class="jetzt-div container-fluid px-0">
      <row class="anmeldung-titel">
          <h3 class="pb-2">Jetzt registrieren!</h3>
      </row>
  </div>
- <div id="form-div" class="container">
+ <div class="form-div container">
      <form action='../database/register_function.php' method='POST'>
          <div class="form-row">
              <div class="col-md-6 col-xs-12">
@@ -37,12 +37,13 @@
                  <label for="inputState">Workshop &#40;10:00 - 11:30&#41;</label>
                  <select id="inputState" class="form-control" name="room_id">
                      <?php
-                        $result = mysqli_query($link, "select * from rooms");
+                        $sql = "SELECT * FROM rooms;";
+                        $result = mysqli_query($link, $sql);
                         //check query
                         if ($result) {
                             while ($row = mysqli_fetch_assoc($result)) {
                                 //if query ok, fetch the rooms and loop. Value is equal to key. 
-                                echo "<option value='$row[id]'>$row[workshop_name]</option>";
+                                echo "<option value='$row[id]' >$row[workshop_name]</option>";
                             }
                         } else {
                             echo "error at: " . mysqli_error($link);

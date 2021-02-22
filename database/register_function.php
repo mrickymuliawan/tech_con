@@ -7,6 +7,7 @@ $email = mysqli_real_escape_string($link, $_POST['email']);
 $company = mysqli_real_escape_string($link, $_POST['firma']);
 $room = mysqli_real_escape_string($link, $_POST['room_id']);
 
+
 //create one participant
 $sql = "INSERT INTO participants (vorname, nachname, email, firma, room_id) VALUES ('$first', '$last', '$email', '$company', '$room');";
 $result = mysqli_query($link, $sql);
