@@ -17,7 +17,7 @@
     <div class="container-fluid px-0">
         <row class="navRow">
             <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-                <a class="navbar-brand" href="../views/program_page.php">Webconia</a>
+                <a class="navbar-brand" href="../views/program_page.php"><img class="logo" src="../image/logo.png" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>

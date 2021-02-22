@@ -6,6 +6,7 @@
         <p class="contact-text card-text text-light"><a href="#">
                 Sitemap</a></p>
         <p class="contact-text card-text text-light"><a href="#">Impresum</a></p>
+        <p class="contact-text card-text text-light">© Copyright 2021</p>
 
     </div>
 </div>

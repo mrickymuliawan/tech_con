@@ -12,6 +12,10 @@ body {
   color: black !important;
 }
 
+.logo {
+  width: 180px;
+}
+
 /* Header / Jumbotron section */
 .header-section {
   margin-top: 4em;
@@ -224,5 +228,9 @@ label {
 
   .mb-5 {
     width: 100%;
+  }
+
+  .logo {
+    width: 120px;
   }
 }
