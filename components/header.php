@@ -1,3 +1,6 @@
+<?php
+  session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -25,6 +28,8 @@
                     <ul class="nav navbar-nav ml-auto">
                         <a class="nav-item nav-link active" href="../views/program_page.php">Program <span class="sr-only">(current)</span></a>
                         <a class="nav-item nav-link" href="../views/registration_form.php">Registrieren</a>
+                        <a class="nav-item nav-link" href="../database/logout_function.php">Logout</a>
+
                     </ul>
                 </div>
             </nav>

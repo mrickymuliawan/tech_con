@@ -1,4 +1,7 @@
-<?php include('../components/header.php') ?>
+<?php 
+session_start();
+include('../components/header.php'); 
+?>
 
 <div class="container">
     <div class="aboutRow row">
@@ -34,6 +37,7 @@
             <h5>Speisen und Getränke</h5>
             <p>Besuchen Sie unsere leckere Cateringstände</p>
         </div>
+        <h3>Helo <?= $_SESSION['vorname'] ?> </h3>
     </div>
 </div>
 
